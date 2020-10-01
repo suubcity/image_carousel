@@ -1,4 +1,4 @@
-/* #region css reset   */
+#region css reset  
 
 html {
   box-sizing: border-box;
@@ -73,7 +73,7 @@ body {
 
 #mainContainer {
   display: grid;
-  height: 95vh;
+  height: 100%;
   grid-template-columns: 30px 1fr 30px;
   grid-template-rows: 40px 1fr 50px;
   max-width: 1000px;
@@ -107,7 +107,7 @@ h1 {
   top: 50px;
   left: 0px;
   width: auto;
-  height: calc(95vh - 110px);
+  height: calc(95% - 110px);
   transition: transform 1s ease-in-out;
 }
 
