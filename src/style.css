@@ -1,4 +1,4 @@
-#region css reset  
+/* #region css reset   */
 
 html {
   box-sizing: border-box;
@@ -90,12 +90,6 @@ h1 {
 }
 
 #galleryContainer {
-  background: rgb(255, 254, 254);
-  background: radial-gradient(
-    circle,
-    rgba(255, 254, 254, 0.8151862464183381) 0%,
-    rgba(0, 0, 0, 0) 49%
-  );
   grid-column-start: 2;
   grid-column-end: 3;
 }
